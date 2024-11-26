@@ -117,10 +117,7 @@ void sapxeptangdan(float a[], int n) //cau F
 			}
 		}
 	}
-	for (int i=0; i<n ;i++)
-	{
-		printf ("%.1f ",a[i]);
-	}
+	xuatmang(a,n);
 }
 
 void ingiatrivitrile (float a[], int n)
