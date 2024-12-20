@@ -82,7 +82,7 @@ void rutgonphanso(PS a)
     int uoc= UCLN(a.tu,a.mau);
     b.tu=a.tu/uoc;
     b.mau=a.mau/uoc;
-    if (b.mau!=0)
+    if (b.tu!=0)
     {
         if (b.mau<0)
         {
