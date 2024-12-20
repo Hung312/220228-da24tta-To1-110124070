@@ -122,7 +122,7 @@ void tongphanso(PS a[])
     int uoc=UCLN(tong.tu,tong.mau);
     tong.tu/=uoc;
     tong.mau/=uoc;
-    if (tong.mau!=0)
+    if (tong.tu!=0)
     {
         if (tong.mau<0)
         {
@@ -161,7 +161,7 @@ void hieuphanso(PS a[])
     int uoc=UCLN(hieu.tu,hieu.mau);
     hieu.tu/=uoc;
     hieu.mau/=uoc;
-    if (hieu.mau!=0)
+    if (hieu.tu!=0)
     {
         if (hieu.mau<0)
         {
@@ -192,7 +192,7 @@ void tichphanso(PS a[])
     int uoc=UCLN(tich.tu,tich.mau);
     tich.tu/=uoc;
     tich.mau/=uoc;
-    if (tich.mau!=0)
+    if (tich.tu!=0)
     {
         if(tich.mau<0)
         {
@@ -223,7 +223,7 @@ void thuongphanso(PS a[])
     int uoc=UCLN(thuong.tu,thuong.mau);
     thuong.tu/=uoc;
     thuong.mau/=uoc;
-    if (thuong.mau!=0)
+    if (thuong.tu!=0)
     {
         if (thuong.mau<0)
         {
